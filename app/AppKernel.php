@@ -18,7 +18,7 @@ class AppKernel extends Kernel
             new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new FOS\UserBundle\FOSUserBundle(),
-            new IAR\MainBundle\IARMainBundle(),
+            new IAR\BackOfficeBundle\IARBackOfficeBundle(),
             new IAR\UserBundle\IARUserBundle(),
             new IAR\PublicBundle\IARPublicBundle(),
             new IAR\CommonsBundle\IARCommonsBundle(),

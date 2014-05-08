@@ -9,12 +9,12 @@ iar_public:
     prefix:   /
 
 iar_main:
-    resource: "@IARMainBundle/Controller/"
+    resource: "@IARBackOfficeBundle/Controller/"
     type:     annotation
     prefix:   /
 
 iar_main_admin:
-    resource: "@IARMainBundle/Controller/Admin"
+    resource: "@IARBackOfficeBundle/Controller/Admin"
     type:     annotation
     prefix:   /admin/
 
